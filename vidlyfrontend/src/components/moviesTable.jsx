@@ -1,21 +1,23 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Like from "./common/like";
 import Table from "./common/table";
-import { Link } from "react-router-dom";
-import auth from "../services/authService";
+import auth from '../services/authService';
 
 class MoviesTable extends Component {
   columns = [
     {
       path: "title",
-      lable: "Title",
-      content: (movie) => (
-        <Link to={`/movies/${movie._id}`}>{movie.title}</Link>
-      ),
+      label: "Title",
+      content: (movie) => {
+        if (this.props.user)
+          return <Link to={`/movies/${movie._id}`}>{movie.title}</Link>;
+        else return movie.title;
+      },
     },
-    { path: "genre.name", lable: "Genre" },
-    { path: "numberInStock", lable: "Stock" },
-    { path: "dailyRentalRate", lable: "Rate" },
+    { path: "genre.name", label: "Genre" },
+    { path: "numberInStock", label: "Stock" },
+    { path: "dailyRentalRate", label: "Rate" },
     {
       key: "like",
       content: (movie) => (
@@ -34,7 +36,7 @@ class MoviesTable extends Component {
         Delete
       </button>
     ),
-  };
+  }
 
   constructor() {
     super();
@@ -43,14 +45,14 @@ class MoviesTable extends Component {
   }
 
   render() {
-    const { movies, onSort, sortColumn } = this.props;
+    const { movies, sortColumn, onSort } = this.props;
 
     return (
       <Table
-        data={movies}
         columns={this.columns}
         sortColumn={sortColumn}
         onSort={onSort}
+        data={movies}
       />
     );
   }

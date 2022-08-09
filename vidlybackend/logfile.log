@@ -1,66 +1,48 @@
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-16T16:18:08.102Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-16T16:18:09.146Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-16T16:29:47.617Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-16T16:29:48.663Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-16T16:30:08.838Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-16T16:30:09.875Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-16T16:42:22.249Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-16T16:42:23.293Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-17T09:58:36.499Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-17T09:58:37.537Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-17T14:39:12.484Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-17T14:39:13.533Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-17T14:53:05.639Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-17T14:53:06.682Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-17T16:55:30.535Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-17T16:55:31.575Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-18T10:05:15.961Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-18T10:05:17.009Z"}
-{"message":"Unexpected string in JSON at position 162","stack":"SyntaxError: Unexpected string in JSON at position 162\n    at JSON.parse (<anonymous>)\n    at parse (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\body-parser\\lib\\read.js:121:18\n    at invokeCallback (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\raw-body\\index.js:224:16)\n    at done (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1317:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)","expose":true,"statusCode":400,"status":400,"body":"{\n    \"_id\": \"625c2990843369230c96cda8\",\n    \"title\": \"Airplane\",\n    \"numberInStock\": 5,\n    \"dailyRentalRate\": 1,\n    \"genreId\": \"625c2990843369230c96cda7\"\n    \"genre\": {\n        \"_id\": \"625c2990843369230c96cda7\",\n        \"name\": \"Comedy\"\n    }\n}","type":"entity.parse.failed","level":"error","timestamp":"2022-04-18T11:10:40.283Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-18T14:04:21.404Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-18T14:04:22.448Z"}
-{"message":"Unexpected token } in JSON at position 55","stack":"SyntaxError: Unexpected token } in JSON at position 55\n    at JSON.parse (<anonymous>)\n    at parse (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\body-parser\\lib\\read.js:121:18\n    at invokeCallback (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\raw-body\\index.js:224:16)\n    at done (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1317:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)","expose":true,"statusCode":400,"status":400,"body":"{\n\t\"email\": \"user1@gmail.com\",\n\t\"password\": \"1235674\",\n}","type":"entity.parse.failed","level":"error","timestamp":"2022-04-18T14:24:27.924Z"}
-{"message":"Unexpected token } in JSON at position 55","stack":"SyntaxError: Unexpected token } in JSON at position 55\n    at JSON.parse (<anonymous>)\n    at parse (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\body-parser\\lib\\read.js:121:18\n    at invokeCallback (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\raw-body\\index.js:224:16)\n    at done (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1317:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)","expose":true,"statusCode":400,"status":400,"body":"{\n\t\"email\": \"user1@gmail.com\",\n\t\"password\": \"1235674\",\n}","type":"entity.parse.failed","level":"error","timestamp":"2022-04-18T14:25:15.562Z"}
-{"message":"Unexpected token } in JSON at position 55","stack":"SyntaxError: Unexpected token } in JSON at position 55\n    at JSON.parse (<anonymous>)\n    at parse (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\body-parser\\lib\\types\\json.js:89:19)\n    at D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\body-parser\\lib\\read.js:121:18\n    at invokeCallback (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\raw-body\\index.js:224:16)\n    at done (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\raw-body\\index.js:213:7)\n    at IncomingMessage.onEnd (D:\\web development\\practice\\REACT\\vidly-backend\\vidly-api-node\\node_modules\\raw-body\\index.js:273:7)\n    at IncomingMessage.emit (events.js:412:35)\n    at endReadableNT (internal/streams/readable.js:1317:12)\n    at processTicksAndRejections (internal/process/task_queues.js:82:21)","expose":true,"statusCode":400,"status":400,"body":"{\n\t\"email\": \"user1@gmail.com\",\n\t\"password\": \"1235674\",\n}","type":"entity.parse.failed","level":"error","timestamp":"2022-04-18T14:25:23.532Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-18T16:40:26.178Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-18T16:40:27.211Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-18T17:17:52.516Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-18T17:17:53.557Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-20T14:27:55.377Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-20T14:27:56.417Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-20T16:08:25.784Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-20T16:08:26.829Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-20T17:03:08.202Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-20T17:03:09.247Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-21T14:19:06.396Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-21T14:19:07.439Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-21T16:46:56.213Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-21T16:46:57.248Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-22T13:55:19.388Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-22T13:55:20.415Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-23T16:32:25.505Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-23T16:32:26.543Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-24T14:32:10.812Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-24T14:32:11.854Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-24T16:37:55.679Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-24T16:37:56.725Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-24T17:21:51.368Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-24T17:21:52.414Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-25T14:22:33.427Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-25T14:22:34.472Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-04-27T15:53:06.123Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-04-27T15:53:07.161Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-05-06T09:57:00.846Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-05-06T09:57:01.894Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-05-06T10:34:30.426Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-05-06T10:34:31.466Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-05-06T16:11:18.643Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-05-06T16:11:19.680Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-05-10T07:50:08.473Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-05-10T07:50:09.549Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-06-01T07:36:41.121Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-06-01T07:36:42.154Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-06-01T07:39:23.391Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-06-01T07:39:24.433Z"}
-{"level":"info","message":"Listening on port 3900...","timestamp":"2022-06-01T08:12:33.025Z"}
-{"level":"info","message":"Connected to mongodb://localhost/vidly...","timestamp":"2022-06-01T08:12:34.310Z"}
+{"level":"error","message":"... ...","stack":"Error: ...\n    at E:\\moshHamedani\\vidly\\routes\\genres.js:15:9\n    at newFn (E:\\moshHamedani\\vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (E:\\moshHamedani\\vidly\\middlewares\\validateObjectId.js:7:3)\n    at newFn (E:\\moshHamedani\\vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (E:\\moshHamedani\\vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (E:\\moshHamedani\\vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:284:7"}
+{"level":"error","message":"... ...","stack":"Error: ...\n    at E:\\moshHamedani\\vidly\\routes\\genres.js:15:9\n    at newFn (E:\\moshHamedani\\vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (E:\\moshHamedani\\vidly\\middlewares\\validateObjectId.js:7:3)\n    at newFn (E:\\moshHamedani\\vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (E:\\moshHamedani\\vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at newFn (E:\\moshHamedani\\vidly\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at E:\\moshHamedani\\vidly\\node_modules\\express\\lib\\router\\index.js:284:7"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3000...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"errors":{"movie.dailyRentalRate":{"name":"ValidatorError","message":"Path `dailyRentalRate` (2) is less than minimum allowed value (5).","properties":{"message":"Path `dailyRentalRate` (2) is less than minimum allowed value (5).","type":"min","min":5,"path":"dailyRentalRate","value":2},"kind":"min","path":"dailyRentalRate","value":2},"movie":{"errors":{"dailyRentalRate":{"name":"ValidatorError","message":"Path `dailyRentalRate` (2) is less than minimum allowed value (5).","properties":{"message":"Path `dailyRentalRate` (2) is less than minimum allowed value (5).","type":"min","min":5,"path":"dailyRentalRate","value":2},"kind":"min","path":"dailyRentalRate","value":2}},"_message":"Validation failed","name":"ValidationError","message":"Validation failed: dailyRentalRate: Path `dailyRentalRate` (2) is less than minimum allowed value (5)."}},"_message":"Rental validation failed","level":"error","message":"Rental validation failed: movie.dailyRentalRate: Path `dailyRentalRate` (2) is less than minimum allowed value (5)., movie: Validation failed: dailyRentalRate: Path `dailyRentalRate` (2) is less than minimum allowed value (5). Rental validation failed: movie.dailyRentalRate: Path `dailyRentalRate` (2) is less than minimum allowed value (5)., movie: Validation failed: dailyRentalRate: Path `dailyRentalRate` (2) is less than minimum allowed value (5).","stack":"ValidationError: Rental validation failed: movie.dailyRentalRate: Path `dailyRentalRate` (2) is less than minimum allowed value (5)., movie: Validation failed: dailyRentalRate: Path `dailyRentalRate` (2) is less than minimum allowed value (5).\n    at model.Document.invalidate (E:\\moshHamedani\\vidly\\node_modules\\mongoose\\lib\\document.js:2760:32)\n    at SingleNested.Subdocument.invalidate (E:\\moshHamedani\\vidly\\node_modules\\mongoose\\lib\\types\\subdocument.js:177:20)\n    at E:\\moshHamedani\\vidly\\node_modules\\mongoose\\lib\\document.js:2552:17\n    at E:\\moshHamedani\\vidly\\node_modules\\mongoose\\lib\\schematype.js:1273:9\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}
+{"message":"Listening on port 3900...","level":"info"}

@@ -1,12 +1,14 @@
 const Joi = require("joi");
-const validate = require("../middleware/validate");
 const { Rental } = require("../models/rental");
 const { Movie } = require("../models/movie");
-const auth = require("../middleware/auth");
+const auth = require("../middlewares/auth");
 const express = require("express");
 const router = express.Router();
 
-router.post("/", [auth, validate(validateReturn)], async (req, res) => {
+router.post("/", auth, async (req, res) => {
+  const { error } = validateReturn(req.body);
+  if (error) return res.status(400).send(error.details[0].message);
+
   const rental = await Rental.lookup(req.body.customerId, req.body.movieId);
 
   if (!rental) return res.status(404).send("Rental not found.");
@@ -17,10 +19,10 @@ router.post("/", [auth, validate(validateReturn)], async (req, res) => {
   rental.return();
   await rental.save();
 
-  await Movie.update(
+  await Movie.updateOne(
     { _id: rental.movie._id },
     {
-      $inc: { numberInStock: 1 }
+      $inc: { numberInStock: 1 },
     }
   );
 
@@ -30,7 +32,7 @@ router.post("/", [auth, validate(validateReturn)], async (req, res) => {
 function validateReturn(req) {
   const schema = {
     customerId: Joi.objectId().required(),
-    movieId: Joi.objectId().required()
+    movieId: Joi.objectId().required(),
   };
 
   return Joi.validate(req, schema);

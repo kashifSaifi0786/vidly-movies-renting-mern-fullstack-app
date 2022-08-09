@@ -1,31 +1,29 @@
 {
-  "name": "vidly",
+  "name": "vidlybackend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An imaginary movie renting service.",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "seed": "node seed.js",
-    "test": "jest --watchAll --verbose"
+    "start": "node app.js",
+    "test": "jest --watchAll --verbose --testEnvironment node"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Adil Siddiqui",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
-    "config": "^1.29.4",
-    "cors": "^2.8.4",
-    "express": "^4.16.2",
-    "express-async-errors": "^2.1.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
     "fawn": "^2.1.5",
     "joi": "^13.4.0",
-    "joi-objectid": "^2.0.0",
-    "jsonwebtoken": "^8.1.1",
-    "lodash": "^4.17.10",
-    "moment": "^2.20.1",
-    "mongoose": "^5.0.2",
-    "winston": "^2.4.0",
-    "winston-mongodb": "^3.0.0"
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.5",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.7"
   },
   "devDependencies": {
     "jest": "^22.2.2",
